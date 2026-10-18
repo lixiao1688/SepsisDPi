@@ -1,0 +1,56 @@
+{
+  "features": [
+    "crea",
+    "plt",
+    "ph",
+    "lact",
+    "resp",
+    "wbc",
+    "mbp",
+    "bun",
+    "rdw",
+    "bicar"
+  ],
+  "labels": {
+    "crea": "Creatinine",
+    "plt": "Platelet count",
+    "ph": "pH",
+    "lact": "Lactate",
+    "resp": "Respiratory rate",
+    "wbc": "White blood cell count",
+    "mbp": "Mean blood pressure",
+    "bun": "Blood urea nitrogen",
+    "rdw": "Red cell distribution width",
+    "bicar": "Bicarbonate"
+  },
+  "units": {
+    "crea": "mg/dL",
+    "plt": "×10⁹/L",
+    "ph": "",
+    "lact": "mmol/L",
+    "resp": "/min",
+    "wbc": "×10⁹/L",
+    "mbp": "mmHg",
+    "bun": "mg/dL",
+    "rdw": "%",
+    "bicar": "mmol/L"
+  },
+  "medians": {
+    "crea": 0.95,
+    "plt": 190.5,
+    "ph": 7.37,
+    "lact": 1.8,
+    "resp": 18.0,
+    "wbc": 10.6,
+    "mbp": 77.0,
+    "bun": 19.0,
+    "rdw": 14.5,
+    "bicar": 23.0
+  },
+  "threshold": 0.53,
+  "training_n": 83661,
+  "training_prevalence": 0.285,
+  "training_auc_in_sample": 0.856,
+  "model_type": "XGBoost (gradient-boosted trees)",
+  "outcome": "Sepsis (Sepsis-3) within the suspected-infection window"
+}
